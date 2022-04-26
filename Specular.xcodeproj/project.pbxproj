@@ -21,6 +21,14 @@
 		4A2C61762818218400481C29 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C61752818218400481C29 /* Music.swift */; };
 		4A2C6178281821D300481C29 /* Level0VariableHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C6177281821D300481C29 /* Level0VariableHandler.swift */; };
 		4A2C617B2818221800481C29 /* prologue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C617A2818221800481C29 /* prologue.swift */; };
+		4A2C617D2818228F00481C29 /* Level00.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C617C2818228F00481C29 /* Level00.swift */; };
+		4A2C617F281822A000481C29 /* Level00-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C617E281822A000481C29 /* Level00-2.swift */; };
+		4A2C6181281822A800481C29 /* Level00-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C6180281822A800481C29 /* Level00-3.swift */; };
+		4A2C6183281822AF00481C29 /* Level00-4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C6182281822AF00481C29 /* Level00-4.swift */; };
+		4A2C6185281822C100481C29 /* Level00-5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C6184281822C100481C29 /* Level00-5.swift */; };
+		4A2C6187281822CC00481C29 /* TheEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C6186281822CC00481C29 /* TheEnd.swift */; };
+		4A2C6189281822E100481C29 /* CharacterMovementHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C6188281822E100481C29 /* CharacterMovementHandler.swift */; };
+		4A2C618B281822EF00481C29 /* UIAnimationsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C618A281822EF00481C29 /* UIAnimationsHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +47,14 @@
 		4A2C61752818218400481C29 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		4A2C6177281821D300481C29 /* Level0VariableHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level0VariableHandler.swift; sourceTree = "<group>"; };
 		4A2C617A2818221800481C29 /* prologue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prologue.swift; sourceTree = "<group>"; };
+		4A2C617C2818228F00481C29 /* Level00.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level00.swift; sourceTree = "<group>"; };
+		4A2C617E281822A000481C29 /* Level00-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level00-2.swift"; sourceTree = "<group>"; };
+		4A2C6180281822A800481C29 /* Level00-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level00-3.swift"; sourceTree = "<group>"; };
+		4A2C6182281822AF00481C29 /* Level00-4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level00-4.swift"; sourceTree = "<group>"; };
+		4A2C6184281822C100481C29 /* Level00-5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level00-5.swift"; sourceTree = "<group>"; };
+		4A2C6186281822CC00481C29 /* TheEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEnd.swift; sourceTree = "<group>"; };
+		4A2C6188281822E100481C29 /* CharacterMovementHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMovementHandler.swift; sourceTree = "<group>"; };
+		4A2C618A281822EF00481C29 /* UIAnimationsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimationsHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +109,14 @@
 			children = (
 				4A2C6177281821D300481C29 /* Level0VariableHandler.swift */,
 				4A2C617A2818221800481C29 /* prologue.swift */,
+				4A2C617C2818228F00481C29 /* Level00.swift */,
+				4A2C617E281822A000481C29 /* Level00-2.swift */,
+				4A2C6180281822A800481C29 /* Level00-3.swift */,
+				4A2C6182281822AF00481C29 /* Level00-4.swift */,
+				4A2C6184281822C100481C29 /* Level00-5.swift */,
+				4A2C6186281822CC00481C29 /* TheEnd.swift */,
+				4A2C6188281822E100481C29 /* CharacterMovementHandler.swift */,
+				4A2C618A281822EF00481C29 /* UIAnimationsHandler.swift */,
 			);
 			path = "Level 0";
 			sourceTree = "<group>";
@@ -170,15 +194,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2C6185281822C100481C29 /* Level00-5.swift in Sources */,
 				4A2C6170281820F200481C29 /* SplashScreen.swift in Sources */,
 				4A2C615F2818209500481C29 /* GameScene.swift in Sources */,
+				4A2C618B281822EF00481C29 /* UIAnimationsHandler.swift in Sources */,
 				4A2C6178281821D300481C29 /* Level0VariableHandler.swift in Sources */,
 				4A2C61722818213100481C29 /* PauseMenuHandler.swift in Sources */,
+				4A2C617D2818228F00481C29 /* Level00.swift in Sources */,
+				4A2C617F281822A000481C29 /* Level00-2.swift in Sources */,
+				4A2C6187281822CC00481C29 /* TheEnd.swift in Sources */,
+				4A2C6183281822AF00481C29 /* Level00-4.swift in Sources */,
+				4A2C6181281822A800481C29 /* Level00-3.swift in Sources */,
 				4A2C61612818209500481C29 /* GameViewController.swift in Sources */,
 				4A2C61762818218400481C29 /* Music.swift in Sources */,
 				4A2C61742818215700481C29 /* LanguageHandler.swift in Sources */,
 				4A2C61592818209500481C29 /* AppDelegate.swift in Sources */,
 				4A2C617B2818221800481C29 /* prologue.swift in Sources */,
+				4A2C6189281822E100481C29 /* CharacterMovementHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
