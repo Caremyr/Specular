@@ -29,6 +29,10 @@
 		4A2C6187281822CC00481C29 /* TheEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C6186281822CC00481C29 /* TheEnd.swift */; };
 		4A2C6189281822E100481C29 /* CharacterMovementHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C6188281822E100481C29 /* CharacterMovementHandler.swift */; };
 		4A2C618B281822EF00481C29 /* UIAnimationsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C618A281822EF00481C29 /* UIAnimationsHandler.swift */; };
+		4A2C61952818254800481C29 /* Specular_Level0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C61942818254800481C29 /* Specular_Level0.wav */; };
+		4A2C61972818254D00481C29 /* open-door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C61962818254D00481C29 /* open-door.mp3 */; };
+		4A2C61992818255300481C29 /* cassetto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C61982818255300481C29 /* cassetto.mp3 */; };
+		4A2C619B2818255900481C29 /* academy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C619A2818255900481C29 /* academy.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +59,10 @@
 		4A2C6186281822CC00481C29 /* TheEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEnd.swift; sourceTree = "<group>"; };
 		4A2C6188281822E100481C29 /* CharacterMovementHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMovementHandler.swift; sourceTree = "<group>"; };
 		4A2C618A281822EF00481C29 /* UIAnimationsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimationsHandler.swift; sourceTree = "<group>"; };
+		4A2C61942818254800481C29 /* Specular_Level0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Specular_Level0.wav; sourceTree = "<group>"; };
+		4A2C61962818254D00481C29 /* open-door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "open-door.mp3"; sourceTree = "<group>"; };
+		4A2C61982818255300481C29 /* cassetto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cassetto.mp3; sourceTree = "<group>"; };
+		4A2C619A2818255900481C29 /* academy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = academy.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				4A2C61622818209500481C29 /* Main.storyboard */,
 				4A2C61652818209600481C29 /* Assets.xcassets */,
 				4A2C61672818209600481C29 /* LaunchScreen.storyboard */,
+				4A2C61942818254800481C29 /* Specular_Level0.wav */,
+				4A2C61962818254D00481C29 /* open-door.mp3 */,
+				4A2C61982818255300481C29 /* cassetto.mp3 */,
+				4A2C619A2818255900481C29 /* academy.wav */,
 			);
 			path = Specular;
 			sourceTree = "<group>";
@@ -179,11 +191,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2C619B2818255900481C29 /* academy.wav in Resources */,
+				4A2C61992818255300481C29 /* cassetto.mp3 in Resources */,
 				4A2C61642818209500481C29 /* Main.storyboard in Resources */,
 				4A2C615B2818209500481C29 /* GameScene.sks in Resources */,
 				4A2C61662818209600481C29 /* Assets.xcassets in Resources */,
 				4A2C61692818209600481C29 /* LaunchScreen.storyboard in Resources */,
 				4A2C615D2818209500481C29 /* Actions.sks in Resources */,
+				4A2C61952818254800481C29 /* Specular_Level0.wav in Resources */,
+				4A2C61972818254D00481C29 /* open-door.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
